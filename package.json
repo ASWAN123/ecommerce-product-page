@@ -1,6 +1,6 @@
 {
   "name": "ecommerce_product_page",
-  "home":"https://aswan123.github.io/ecommerce-product-page/" ,
+  "homepage":"https://aswan123.github.io/ecommerce-product-page/" ,
   "version": "0.1.0",
   "private": true,
   "dependencies": {
