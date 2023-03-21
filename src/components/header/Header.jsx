@@ -63,7 +63,7 @@ function Header({ order, setOrder }) {
         <div className="hover:cursor-pointer hover:border-2 border-orange-500 min-w-[50px] max-w-[50px] min-h-[50px] rounded-[50%] sm:min-w-[40px] sm:max-w-[40px] ">
           <img
             className="object-contain "
-            src="/images/image-avatar.png"
+            src="./images/image-avatar.png"
             alt=""
           />
         </div>
