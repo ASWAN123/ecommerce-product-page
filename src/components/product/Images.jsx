@@ -4,10 +4,10 @@ import { AiOutlineRight } from "react-icons/ai";
 
 function Images({ setImagepreveiw, show }) {
   let [images, setImages] = useState([
-    "/images/image-product-1.jpg",
-    "/images/image-product-2.jpg",
-    "/images/image-product-3.jpg",
-    "/images/image-product-4.jpg",
+    "./images/image-product-1.jpg",
+    "./images/image-product-2.jpg",
+    "./images/image-product-3.jpg",
+    "./images/image-product-4.jpg",
   ]);
 
   let [mainImage, setmainImage] = useState(images[0]);
@@ -18,13 +18,13 @@ function Images({ setImagepreveiw, show }) {
 
   const next = () => {
     let location = mainImage.split("product-")[1].split(".jpg")[0];
-    let x = "/images/image-product-" + (parseInt(location) + 1) + ".jpg";
+    let x = "./images/image-product-" + (parseInt(location) + 1) + ".jpg";
     setmainImage(x);
   };
 
   const prev = () => {
     let location = mainImage.split("product-")[1].split(".jpg")[0];
-    let x = "/images/image-product-" + (parseInt(location) - 1) + ".jpg";
+    let x = "./images/image-product-" + (parseInt(location) - 1) + ".jpg";
     setmainImage(x);
   };
 

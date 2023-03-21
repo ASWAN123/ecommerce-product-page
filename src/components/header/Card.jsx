@@ -16,7 +16,7 @@ function Card({ order, setOrder }) {
         {order.title.length > 0 ? (
           <div className="items flex flex-col gap-4 items-center">
             <div className="flex gap-4 p-2 items-center ">
-                <img className="w-[50px] h-[50px] rounded-lg  hover:cursor-pointer shadow-md " src={order.imagesrc} alt="" />
+                <img className="w-[50px] h-[50px] rounded-lg  hover:cursor-pointer shadow-md " src={"."+order.imagesrc} alt="" />
                 <div className="flex flex-col ">
                     <p className="text-[14px] text-gray-400 ">{order.title}</p>
                     <p className="text-gray-400 ">${order.price}.00 x {order.quantity} <span className="text-black font-bold ">${order.price*order.quantity}</span></p>
